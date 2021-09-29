@@ -1,3 +1,13 @@
 <h1>{{title}}</h1>
-<app-heroes></app-heroes>
+<nav>
+    <a routerLink="/heroes">Heroes</a>
+</nav>
+<router-outlet></router-outlet>
+<app-dashboard></app-dashboard>
 <app-messages></app-messages>
+
+<!--<app-heroes></app-heroes>
+No lo necesitamos, pues 
+quien se encarga de mostrar algo
+en pantalla será app-router
+-->
